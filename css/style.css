@@ -18,18 +18,18 @@ figcaption {
 
 h1 {
   font-size: 24px;
-  text-align: center;
+  text-align: left;
   text-decoration: underline;
   padding-bottom: 10px;
 }
 
 h3 {
   font-size: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .author {
-  text-align: right;
+  text-align: left;
   font-size: 12px;
   padding-bottom: 15px;
   padding-top: 5px;
@@ -49,14 +49,17 @@ p {
 
 .figcaption {
   font-size: 12px;
+  margin: auto;
+  text-align: center;
 }
 
 .medium-pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  ;
+  width: 90%;
+  padding-top: 100px;
+  padding-bottom: 10px;
 }
 
 .left, .right {
@@ -88,9 +91,18 @@ article {
 }
 
 a:link {
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+a:active {
+  color: pink;
+}
+
+a:visited {
+  color: yellow;
 }
